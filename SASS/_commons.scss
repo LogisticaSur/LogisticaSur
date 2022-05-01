@@ -1,0 +1,54 @@
+nav{
+    div{
+        div{
+            ul{
+                li:hover{
+                    cursor: pointer;
+                    background-color: grey;
+                    border-radius: 0.5em;
+                }
+            }
+        }
+    }
+}
+
+$paleta:(
+    'uno': black,
+    'dos': #279EB0,
+    'tres':#038F7C,
+    'cuatro':#296AD9,
+    'cinco': #D2E1FC,
+    'seis': #3C5B91,
+    
+);
+
+nav{
+    div{
+        div{
+            ul{
+                li{
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+nav{
+    color: map-get($paleta, $key:'uno');
+}
+
+@mixin fontWeight ($font-weight) {
+    font-weight: $font-weight;
+}
+
+.mainIndexA{
+    article{
+            div{
+                a{
+                    @include fontWeight(600)
+                }
+            }
+    }
+}
+

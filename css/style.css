@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 20vh;
+    background-color: gray;
+    color: white;
+}
+
+.imgIndex{
+    width: 3em;
+    height: 3em;
+    margin: 1em;
+}
+
+main{
+    height: 50vh;
+    background-color: white;
+}
+
+aside{
+    height: 10vh;
+    background-color: white;
+}
+
+footer{
+    height: 20vh;
+    background-color: gray;
+    color: white;
+}
+
+.divisionHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgGente{
+    height: auto;
+    width: 40em;
+    margin-top: 2em;
+}
+
+.articleGente{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgCalidad{
+    height: auto;
+    width: 45em;
+    margin-top: 4em;
+}
+
+.imgSeguridad{
+    height: auto;
+    width: 45em;
+    margin-top: 4em;
+}
+
+.imgGestion{
+    height: auto;
+    width: 50em; 
+    margin-top: 2.5em;
+}
+
+.imgMtto{
+    margin-top: 5em;
+    height: auto;
+    width: 50em; 
+}
+
+.articleGestion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 280px){
+    main{
+        height: 100vh;
+    }
+
+}
+
+@media (min-width: 600px){
+    main{
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1024px){
+    main{
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1200px){
+    main{
+        height: 100vh;
+    }
+}
+
+
+
+
+
+

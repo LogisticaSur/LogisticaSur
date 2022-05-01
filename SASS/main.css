@@ -1,0 +1,18 @@
+nav div div ul li:hover {
+  cursor: pointer;
+  background-color: grey;
+  border-radius: 0.5em;
+}
+
+nav div div ul li {
+  font-weight: 600;
+}
+
+nav {
+  color: black;
+}
+
+.mainIndexA article div a {
+  font-weight: 600;
+}
+/*# sourceMappingURL=main.css.map */
