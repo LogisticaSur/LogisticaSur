@@ -116,6 +116,9 @@ footer{
     .iframe1{
         width: 15em;
         height: 10em;
+        margin-top: 5em;
+        margin-bottom: 5em;
+        margin-left: 1em;
     }
 
 }
