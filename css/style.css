@@ -54,14 +54,14 @@ footer{
     height: auto;
     width: 45em;
     margin-top: 4em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 .imgSeguridad{
     height: auto;
     width: 45em;
     margin-top: 4em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 .imgGestion{
@@ -75,7 +75,7 @@ footer{
     margin-top: 5em;
     height: auto;
     width: 50em; 
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 .articleGestion{
@@ -142,6 +142,7 @@ footer{
     .iframe1{
         width: 20em;
         height: 15em;
+        margin-bottom: 3em;
     }
    
 }
