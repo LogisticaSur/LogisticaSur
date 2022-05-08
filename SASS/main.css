@@ -35,4 +35,19 @@ nav {
   padding-top: 3em;
   padding-bottom: 0.5em;
 }
+
+.inframeVideo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.inframe1 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=main.css.map */

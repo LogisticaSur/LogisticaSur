@@ -180,9 +180,12 @@ footer{
     .mainGente{
         height: 85vh;
     } */
+    .inframeVideo{
+        margin-left: 10em;
+    }
 }
 
-@media (min-width: 1025px) and (max-width: 1119px){
+@media (min-width: 1025px) and (max-width: 1199px){
     /* main{
         height: 100vh;
     }
@@ -198,6 +201,9 @@ footer{
     .mainGente{
         height: 95vh;
     } */
+    .inframeVideo{
+        margin-left: 15em;
+    }
 }
 
 @media (min-width: 1200px){
@@ -219,6 +225,9 @@ footer{
     .mainMtto{
         height: 85vh;
     } */
+    .inframeVideo{
+        margin-left: 20em;
+    }
     
 }
 
