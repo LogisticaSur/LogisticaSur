@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&family=Tangerine&display=swap");
 nav div div ul li:hover {
   cursor: pointer;
   background-color: grey;
@@ -14,5 +15,24 @@ nav {
 
 .mainIndexA article div a {
   font-weight: 600;
+}
+
+.mainInfo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+}
+
+.article1 {
+  grid-row: auto;
+  width: auto;
+}
+
+.article2 {
+  grid-row: auto;
+  width: auto;
+  padding-top: 3em;
+  padding-bottom: 0.5em;
 }
 /*# sourceMappingURL=main.css.map */

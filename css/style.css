@@ -4,7 +4,7 @@
 }
 
 header{
-    height: 20vh;
+    /* height: 20vh; */
     background-color: gray;
     color: white;
 }
@@ -16,17 +16,17 @@ header{
 }
 
 main{
-    height: 50vh;
+    /* height: 50vh; */
     background-color: white;
 }
 
 aside{
-    height: 10vh;
+    /* height: 10vh; */
     background-color: white;
 }
 
 footer{
-    height: 20vh;
+    /* height: 20vh; */
     background-color: gray;
     color: white;
 }
@@ -41,6 +41,7 @@ footer{
     height: auto;
     width: 40em;
     margin-top: 2em;
+    margin-bottom: 1em;
 }
 
 .articleGente{
@@ -53,24 +54,28 @@ footer{
     height: auto;
     width: 45em;
     margin-top: 4em;
+    margin-bottom: 1em;
 }
 
 .imgSeguridad{
     height: auto;
     width: 45em;
     margin-top: 4em;
+    margin-bottom: 1em;
 }
 
 .imgGestion{
     height: auto;
-    width: 50em; 
+    width: 40em; 
     margin-top: 2.5em;
+    margin-bottom: 1em;
 }
 
 .imgMtto{
     margin-top: 5em;
     height: auto;
     width: 50em; 
+    margin-bottom: 1em;
 }
 
 .articleGestion{
@@ -79,32 +84,143 @@ footer{
     justify-content: center;
 }
 
-@media (min-width: 280px){
-    main{
-        height: 100vh;
+@media (max-width: 280px){
+    /* main{
+        height: 70vh;
     }
+    .mainGestion{
+        height: 60vh;
+    }
+    .mainGente{
+        height: 60vh;
+    } */
 
 }
 
-@media (min-width: 600px){
-    main{
-        height: 100vh;
+@media (min-width:281px) and (max-width:320px){
+    /* main{
+        height: 70vh;
     }
+    .mainGestion{
+        height: 60vh;
+    }
+    .mainGente{
+        height: 60vh;
+    } */
+
 }
 
-@media (min-width: 1024px){
-    main{
+@media (min-width:321px) and (max-width:480px){
+    /* main{
+        height: 70vh;
+    }
+    .mainGestion{
+        height:90vh;
+    }
+    .mainSeguridad{
+        height: 85vh;
+    }
+    .mainCalidad{
+        height: 85vh;
+    }
+    .mainGente{
+        height: 100vh;
+    } */
+   
+}
+
+@media (min-width:481px) and (max-width:767px){
+    /* main{
+        height: 70vh;
+    }
+    .mainGestion{
+        height:90vh;
+    }
+    .mainSeguridad{
+        height: 85vh;
+    }
+    .mainCalidad{
+        height: 85vh;
+    }
+    .mainGente{
+        height: 100vh;
+    } */
+   
+}
+
+@media (min-width:768px) and (max-width:990px){
+    /* main{
+        height: 90vh;
+    }
+    .mainSeguridad{
+        height: 70vh;
+    }
+    .mainCalidad{
+        height: 80vh;
+    }
+    .mainGente{
+        height: 90vh;
+    } */
+
+}
+
+@media (min-width: 991px) and (max-width:1024px){
+    /* main{
         height: 100vh;
     }
+    .mainGestion{
+        height:90vh;
+    }
+    .mainSeguridad{
+        height: 80vh;
+    }
+    .mainCalidad{
+        height: 80vh;
+    }
+    .mainGente{
+        height: 85vh;
+    } */
+}
+
+@media (min-width: 1025px) and (max-width: 1119px){
+    /* main{
+        height: 100vh;
+    }
+    .mainGestion{
+        height:85vh;
+    }
+    .mainSeguridad{
+        height: 80vh;
+    }
+    .mainCalidad{
+        height: 80vh;
+    }
+    .mainGente{
+        height: 95vh;
+    } */
 }
 
 @media (min-width: 1200px){
-    main{
-        height: 100vh;
+    /* main{
+        height: 60vh;
     }
+    .mainGestion{
+        height:85vh;
+    }
+    .mainGente{
+        height:95vh;
+    }
+    .mainSeguridad{
+        height: 85vh;
+    }
+    .mainCalidad{
+        height: 85vh;
+    }
+    .mainMtto{
+        height: 85vh;
+    } */
+    
 }
-
-
 
 
 

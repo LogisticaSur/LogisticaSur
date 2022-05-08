@@ -1,0 +1,15 @@
+.mainInfo{
+    display: grid;
+    grid-template-rows: repeat(2 , 1fr);
+}
+
+.article1{
+    grid-row: auto;
+    width: auto;
+}
+.article2{
+    grid-row: auto;
+    width: auto; 
+    padding-top: 3em; 
+    padding-bottom: 0.5em;  
+}
